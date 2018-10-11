@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dde61eed-0634-4ef5-af7b-7bb299c373c7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.midterm/.idea/contentModel.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.midterm/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.midterm/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.midterm/riderModule.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.midterm/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.midterm/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/dancer.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/dancer.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/mesh_expand.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/mesh_expand.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/player_movement.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/player_movement.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/ui_pointer.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/ui_pointer.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,76 +26,85 @@
       <file leaf-file-name="player_movement.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/player_movement.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="928">
-              <caret line="34" column="50" lean-forward="false" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
+            <state relative-caret-position="1189">
+              <caret line="41" column="53" lean-forward="false" selection-start-line="41" selection-start-column="53" selection-end-line="41" selection-end-column="53" />
               <folding>
-                <marker date="1538076528792" expanded="false" signature="6:78" ph="..." />
-                <marker date="1538076528792" expanded="true" signature="81:252" ph="/* usage: this script should be put on the player game object ... */" />
-                <marker date="1538076528792" expanded="true" signature="297:1394" ph="{...}" />
-                <marker date="1538076528792" expanded="true" signature="502:545" ph="{...}" />
-                <marker date="1538076528792" expanded="true" signature="600:1200" ph="{...}" />
-                <marker date="1538076528792" expanded="true" signature="604:642" ph="/* MOUSE LOOK ... */" />
-                <marker date="1538076528792" expanded="true" signature="1222:1392" ph="{...}" />
+                <marker date="1539207492753" expanded="true" signature="6:78" ph="..." />
+                <marker date="1539207492753" expanded="true" signature="81:252" ph="/* usage: this script should be put on the player game object ... */" />
+                <marker date="1539207492753" expanded="true" signature="297:2603" ph="{...}" />
+                <marker date="1539207492753" expanded="true" signature="676:1402" ph="{...}" />
+                <marker date="1539207492753" expanded="true" signature="680:718" ph="/* MOUSE LOOK ... */" />
+                <marker date="1539207492753" expanded="true" signature="1341:1399" ph="{...}" />
+                <marker date="1539207492753" expanded="true" signature="1424:1605" ph="{...}" />
+                <marker date="1539207492753" expanded="true" signature="1628:2601" ph="{...}" />
+                <marker date="1539207492753" expanded="true" signature="2284:2413" ph="{...}" />
+                <marker date="1539207492753" expanded="true" signature="2336:2368" ph="{...}" />
+                <marker date="1539207492753" expanded="true" signature="2376:2409" ph="{...}" />
+                <marker date="1539207492753" expanded="true" signature="2432:2561" ph="{...}" />
+                <marker date="1539207492753" expanded="true" signature="2484:2516" ph="{...}" />
+                <marker date="1539207492753" expanded="true" signature="2524:2557" ph="{...}" />
+                <marker date="1539207492753" expanded="true" signature="2568:2598" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mesh_expand.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mesh_expand.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/mesh_expand.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="975">
-              <caret line="171" column="31" lean-forward="false" selection-start-line="171" selection-start-column="31" selection-end-line="171" selection-end-column="31" />
+            <state relative-caret-position="3886">
+              <caret line="138" column="32" lean-forward="false" selection-start-line="138" selection-start-column="32" selection-end-line="138" selection-end-column="32" />
               <folding>
-                <marker date="1538461492869" expanded="true" signature="6:142" ph="..." />
-                <marker date="1538461492869" expanded="true" signature="145:356" ph="/* usage: put this on the aura object that is attached to every bro ... */" />
-                <marker date="1538461492869" expanded="true" signature="397:4611" ph="{...}" />
-                <marker date="1538461492869" expanded="true" signature="1131:1687" ph="{...}" />
-                <marker date="1538461492869" expanded="true" signature="1438:1485" ph="{...}" />
-                <marker date="1538461492869" expanded="true" signature="1530:1559" ph="{...}" />
-                <marker date="1538461492869" expanded="true" signature="1703:3508" ph="{...}" />
-                <marker date="1538461492869" expanded="true" signature="1882:1981" ph="{...}" />
-                <marker date="1538461492869" expanded="true" signature="1999:2021" ph="{...}" />
-                <marker date="1538461492869" expanded="true" signature="2068:2157" ph="{...}" />
-                <marker date="1538461492869" expanded="true" signature="2188:2210" ph="{...}" />
-                <marker date="1538461492869" expanded="true" signature="2304:3460" ph="{...}" />
-                <marker date="1538461492869" expanded="true" signature="2703:2752" ph="{...}" />
-                <marker date="1538461492869" expanded="true" signature="2760:3007" ph="{...}" />
-                <marker date="1538461492869" expanded="true" signature="2770:2857" ph="/* when the cache is full, set all the cached uv's back to 'red' ... */" />
-                <marker date="1538461492869" expanded="true" signature="2903:2989" ph="{...}" />
-                <marker date="1538461492869" expanded="true" signature="3015:3093" ph="/* send out lightning bolts ... */" />
-                <marker date="1538461492869" expanded="true" signature="3128:3165" ph="{...}" />
-                <marker date="1538461492869" expanded="true" signature="3200:3415" ph="{...}" />
-                <marker date="1538461492869" expanded="true" signature="3575:4079" ph="{...}" />
-                <marker date="1538461492869" expanded="true" signature="3727:4076" ph="{...}" />
-                <marker date="1538461492869" expanded="true" signature="3926:4072" ph="{...}" />
-                <marker date="1538461492869" expanded="true" signature="4146:4606" ph="{...}" />
-                <marker date="1538461492869" expanded="true" signature="4363:4603" ph="{...}" />
-                <marker date="1538461492869" expanded="true" signature="4573:4599" ph="{...}" />
+                <marker date="1538678920164" expanded="false" signature="6:132" ph="..." />
+                <marker date="1538678920164" expanded="true" signature="135:346" ph="/* usage: put this on the aura object that is attached to every bro ... */" />
+                <marker date="1538678920164" expanded="true" signature="387:4840" ph="{...}" />
+                <marker date="1538678920164" expanded="true" signature="1272:1828" ph="{...}" />
+                <marker date="1538678920164" expanded="true" signature="1579:1626" ph="{...}" />
+                <marker date="1538678920164" expanded="true" signature="1671:1700" ph="{...}" />
+                <marker date="1538678920164" expanded="true" signature="1844:3677" ph="{...}" />
+                <marker date="1538678920164" expanded="true" signature="2023:2122" ph="{...}" />
+                <marker date="1538678920164" expanded="true" signature="2140:2162" ph="{...}" />
+                <marker date="1538678920164" expanded="true" signature="2209:2298" ph="{...}" />
+                <marker date="1538678920164" expanded="true" signature="2329:2351" ph="{...}" />
+                <marker date="1538678920164" expanded="true" signature="2445:3629" ph="{...}" />
+                <marker date="1538678920164" expanded="true" signature="2872:2921" ph="{...}" />
+                <marker date="1538678920164" expanded="true" signature="2929:3176" ph="{...}" />
+                <marker date="1538678920164" expanded="true" signature="2939:3026" ph="/* when the cache is full, set all the cached uv's back to 'red' ... */" />
+                <marker date="1538678920164" expanded="true" signature="3072:3158" ph="{...}" />
+                <marker date="1538678920164" expanded="true" signature="3184:3262" ph="/* send out lightning bolts ... */" />
+                <marker date="1538678920164" expanded="true" signature="3297:3334" ph="{...}" />
+                <marker date="1538678920164" expanded="true" signature="3369:3584" ph="{...}" />
+                <marker date="1538678920164" expanded="true" signature="3744:4308" ph="{...}" />
+                <marker date="1538678920164" expanded="true" signature="3896:4305" ph="{...}" />
+                <marker date="1538678920164" expanded="true" signature="4155:4301" ph="{...}" />
+                <marker date="1538678920164" expanded="true" signature="4375:4835" ph="{...}" />
+                <marker date="1538678920164" expanded="true" signature="4592:4832" ph="{...}" />
+                <marker date="1538678920164" expanded="true" signature="4802:4828" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dancer.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="dancer.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/dancer.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1160">
-              <caret line="63" column="5" lean-forward="false" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+            <state relative-caret-position="2117">
+              <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
               <folding>
-                <marker date="1538461378866" expanded="false" signature="6:78" ph="..." />
-                <marker date="1538461378866" expanded="true" signature="81:248" ph="/* usage: put this script on all of the dancers that are NOT bros ... */" />
-                <marker date="1538461378866" expanded="true" signature="284:1635" ph="{...}" />
-                <marker date="1538461378866" expanded="true" signature="507:1049" ph="{...}" />
-                <marker date="1538461378866" expanded="true" signature="511:594" ph="/* if the dancer is out of the range of the bro rage, ... */" />
-                <marker date="1538461378866" expanded="true" signature="642:788" ph="{...}" />
-                <marker date="1538461378866" expanded="true" signature="795:837" ph="{...}" />
-                <marker date="1538461378866" expanded="true" signature="875:915" ph="{...}" />
-                <marker date="1538461378866" expanded="true" signature="1001:1043" ph="{...}" />
-                <marker date="1538461378866" expanded="true" signature="1147:1315" ph="{...}" />
-                <marker date="1538461378866" expanded="true" signature="1219:1312" ph="{...}" />
-                <marker date="1538461378866" expanded="true" signature="1404:1480" ph="{...}" />
-                <marker date="1538461378866" expanded="true" signature="1505:1633" ph="{...}" />
+                <marker date="1539207852067" expanded="false" signature="6:78" ph="..." />
+                <marker date="1539207852067" expanded="true" signature="81:248" ph="/* usage: put this script on all of the dancers that are NOT bros ... */" />
+                <marker date="1539207852067" expanded="true" signature="284:1757" ph="{...}" />
+                <marker date="1539207852067" expanded="true" signature="493:538" ph="{...}" />
+                <marker date="1539207852067" expanded="true" signature="594:1171" ph="{...}" />
+                <marker date="1539207852067" expanded="true" signature="598:681" ph="/* if the dancer is out of the range of the bro rage, ... */" />
+                <marker date="1539207852067" expanded="true" signature="738:893" ph="{...}" />
+                <marker date="1539207852067" expanded="true" signature="900:942" ph="{...}" />
+                <marker date="1539207852067" expanded="true" signature="980:1020" ph="{...}" />
+                <marker date="1539207852067" expanded="true" signature="1123:1165" ph="{...}" />
+                <marker date="1539207852067" expanded="true" signature="1269:1437" ph="{...}" />
+                <marker date="1539207852067" expanded="true" signature="1341:1434" ph="{...}" />
+                <marker date="1539207852067" expanded="true" signature="1526:1602" ph="{...}" />
+                <marker date="1539207852067" expanded="true" signature="1627:1755" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -100,13 +113,14 @@
       <file leaf-file-name="ui_pointer.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/ui_pointer.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+            <state relative-caret-position="580">
+              <caret line="22" column="10" lean-forward="false" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
               <folding>
-                <marker date="1538460988952" expanded="true" signature="6:78" ph="..." />
-                <marker date="1538460988952" expanded="true" signature="80:202" ph="/* usage: put this script on the ui pointer object that should be a child of player ... */" />
-                <marker date="1538460988952" expanded="true" signature="243:416" ph="{...}" />
-                <marker date="1538460988952" expanded="true" signature="281:414" ph="{...}" />
+                <marker date="1538678937139" expanded="false" signature="6:78" ph="..." />
+                <marker date="1538678937139" expanded="true" signature="80:202" ph="/* usage: put this script on the ui pointer object that should be a child of player ... */" />
+                <marker date="1538678937139" expanded="true" signature="243:532" ph="{...}" />
+                <marker date="1538678937139" expanded="true" signature="353:530" ph="{...}" />
+                <marker date="1538678937139" expanded="true" signature="431:527" ph="/* Vector3 B = bro.transform.position; ... */" />
               </folding>
             </state>
           </provider>
@@ -115,10 +129,10 @@
       <file leaf-file-name="poke_needle.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/poke_needle.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
+            <state relative-caret-position="116">
               <caret line="6" column="42" lean-forward="false" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
               <folding>
-                <marker date="1538460232474" expanded="true" signature="6:78" ph="..." />
+                <marker date="1538460232474" expanded="false" signature="6:78" ph="..." />
                 <marker date="1538460232474" expanded="true" signature="80:226" ph="/* usage: put this script on the needle that the player carries ... */" />
                 <marker date="1538460232474" expanded="true" signature="268:727" ph="{...}" />
                 <marker date="1538460232474" expanded="true" signature="392:725" ph="{...}" />
@@ -144,12 +158,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/player_movement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/poke_needle.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/camera_look.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ui_pointer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/dancer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/mesh_expand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ui_pointer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/player_movement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/dancer.cs" />
       </list>
     </option>
   </component>
@@ -160,11 +174,12 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-13" />
-    <option name="y" value="87" />
+    <option name="x" value="-49" />
+    <option name="y" value="47" />
     <option name="width" value="2586" />
     <option name="height" value="1546" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
       <flattenPackages />
@@ -180,7 +195,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <PATH>
@@ -197,6 +211,7 @@
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -248,12 +263,14 @@
       <option name="presentableId" value="Default" />
       <updated>1538075625119</updated>
       <workItem from="1538075627544" duration="12142000" />
-      <workItem from="1538457834433" duration="4254000" />
+      <workItem from="1538457834433" duration="5199000" />
+      <workItem from="1538678356458" duration="2604000" />
+      <workItem from="1539206732387" duration="1718000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16396000" />
+    <option name="totallyTimeSpent" value="21663000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -265,7 +282,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-13" y="87" width="2586" height="1546" extended-state="0" />
+    <frame x="-49" y="47" width="2586" height="1546" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -303,16 +320,242 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/player_movement.cs">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="899">
+          <caret line="33" column="24" lean-forward="false" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+          <folding>
+            <marker date="1539207492753" expanded="true" signature="6:78" ph="..." />
+            <marker date="1539207492753" expanded="true" signature="81:252" ph="/* usage: this script should be put on the player game object ... */" />
+            <marker date="1539207492753" expanded="true" signature="297:2603" ph="{...}" />
+            <marker date="1539207492753" expanded="true" signature="676:1402" ph="{...}" />
+            <marker date="1539207492753" expanded="true" signature="680:718" ph="/* MOUSE LOOK ... */" />
+            <marker date="1539207492753" expanded="true" signature="1341:1399" ph="{...}" />
+            <marker date="1539207492753" expanded="true" signature="1424:1605" ph="{...}" />
+            <marker date="1539207492753" expanded="true" signature="1628:2601" ph="{...}" />
+            <marker date="1539207492753" expanded="true" signature="2284:2413" ph="{...}" />
+            <marker date="1539207492753" expanded="true" signature="2336:2368" ph="{...}" />
+            <marker date="1539207492753" expanded="true" signature="2376:2409" ph="{...}" />
+            <marker date="1539207492753" expanded="true" signature="2432:2561" ph="{...}" />
+            <marker date="1539207492753" expanded="true" signature="2484:2516" ph="{...}" />
+            <marker date="1539207492753" expanded="true" signature="2524:2557" ph="{...}" />
+            <marker date="1539207492753" expanded="true" signature="2568:2598" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/mesh_expand.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4002">
+          <caret line="138" column="32" lean-forward="false" selection-start-line="138" selection-start-column="32" selection-end-line="138" selection-end-column="32" />
+          <folding>
+            <marker date="1538678920164" expanded="false" signature="6:132" ph="..." />
+            <marker date="1538678920164" expanded="true" signature="135:346" ph="/* usage: put this on the aura object that is attached to every bro ... */" />
+            <marker date="1538678920164" expanded="true" signature="387:4840" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="1272:1828" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="1579:1626" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="1671:1700" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="1844:3677" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="2023:2122" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="2140:2162" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="2209:2298" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="2329:2351" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="2445:3629" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="2872:2921" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="2929:3176" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="2939:3026" ph="/* when the cache is full, set all the cached uv's back to 'red' ... */" />
+            <marker date="1538678920164" expanded="true" signature="3072:3158" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="3184:3262" ph="/* send out lightning bolts ... */" />
+            <marker date="1538678920164" expanded="true" signature="3297:3334" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="3369:3584" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="3744:4308" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="3896:4305" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="4155:4301" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="4375:4835" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="4592:4832" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="4802:4828" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ui_pointer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="22" column="10" lean-forward="false" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+          <folding>
+            <marker date="1538678937139" expanded="false" signature="6:78" ph="..." />
+            <marker date="1538678937139" expanded="true" signature="80:202" ph="/* usage: put this script on the ui pointer object that should be a child of player ... */" />
+            <marker date="1538678937139" expanded="true" signature="243:532" ph="{...}" />
+            <marker date="1538678937139" expanded="true" signature="353:530" ph="{...}" />
+            <marker date="1538678937139" expanded="true" signature="431:527" ph="/* Vector3 B = bro.transform.position; ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/poke_needle.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="42" lean-forward="false" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+          <folding>
+            <marker date="1538460232474" expanded="false" signature="6:78" ph="..." />
+            <marker date="1538460232474" expanded="true" signature="80:226" ph="/* usage: put this script on the needle that the player carries ... */" />
+            <marker date="1538460232474" expanded="true" signature="268:727" ph="{...}" />
+            <marker date="1538460232474" expanded="true" signature="392:725" ph="{...}" />
+            <marker date="1538460232474" expanded="true" signature="484:722" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/dancer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1769">
+          <caret line="63" column="5" lean-forward="false" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+          <folding>
+            <marker date="1539207852067" expanded="false" signature="6:78" ph="..." />
+            <marker date="1539207852067" expanded="true" signature="81:248" ph="/* usage: put this script on all of the dancers that are NOT bros ... */" />
+            <marker date="1539207852067" expanded="true" signature="284:1757" ph="{...}" />
+            <marker date="1539207852067" expanded="true" signature="493:538" ph="{...}" />
+            <marker date="1539207852067" expanded="true" signature="594:1171" ph="{...}" />
+            <marker date="1539207852067" expanded="true" signature="598:681" ph="/* if the dancer is out of the range of the bro rage, ... */" />
+            <marker date="1539207852067" expanded="true" signature="738:893" ph="{...}" />
+            <marker date="1539207852067" expanded="true" signature="900:942" ph="{...}" />
+            <marker date="1539207852067" expanded="true" signature="980:1020" ph="{...}" />
+            <marker date="1539207852067" expanded="true" signature="1123:1165" ph="{...}" />
+            <marker date="1539207852067" expanded="true" signature="1269:1437" ph="{...}" />
+            <marker date="1539207852067" expanded="true" signature="1341:1434" ph="{...}" />
+            <marker date="1539207852067" expanded="true" signature="1526:1602" ph="{...}" />
+            <marker date="1539207852067" expanded="true" signature="1627:1755" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/player_movement.cs">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="928">
           <caret line="34" column="50" lean-forward="false" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
           <folding>
-            <marker date="1538076528792" expanded="false" signature="6:78" ph="..." />
-            <marker date="1538076528792" expanded="true" signature="81:252" ph="/* usage: this script should be put on the player game object ... */" />
-            <marker date="1538076528792" expanded="true" signature="297:1394" ph="{...}" />
-            <marker date="1538076528792" expanded="true" signature="502:545" ph="{...}" />
-            <marker date="1538076528792" expanded="true" signature="600:1200" ph="{...}" />
-            <marker date="1538076528792" expanded="true" signature="604:642" ph="/* MOUSE LOOK ... */" />
-            <marker date="1538076528792" expanded="true" signature="1222:1392" ph="{...}" />
+            <marker date="1539207492753" expanded="true" signature="6:78" ph="..." />
+            <marker date="1539207492753" expanded="true" signature="81:252" ph="/* usage: this script should be put on the player game object ... */" />
+            <marker date="1539207492753" expanded="true" signature="297:2603" ph="{...}" />
+            <marker date="1539207492753" expanded="true" signature="676:1402" ph="{...}" />
+            <marker date="1539207492753" expanded="true" signature="680:718" ph="/* MOUSE LOOK ... */" />
+            <marker date="1539207492753" expanded="true" signature="1341:1399" ph="{...}" />
+            <marker date="1539207492753" expanded="true" signature="1424:1605" ph="{...}" />
+            <marker date="1539207492753" expanded="true" signature="1628:2601" ph="{...}" />
+            <marker date="1539207492753" expanded="true" signature="2284:2413" ph="{...}" />
+            <marker date="1539207492753" expanded="true" signature="2336:2368" ph="{...}" />
+            <marker date="1539207492753" expanded="true" signature="2376:2409" ph="{...}" />
+            <marker date="1539207492753" expanded="true" signature="2432:2561" ph="{...}" />
+            <marker date="1539207492753" expanded="true" signature="2484:2516" ph="{...}" />
+            <marker date="1539207492753" expanded="true" signature="2524:2557" ph="{...}" />
+            <marker date="1539207492753" expanded="true" signature="2568:2598" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/dancer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1769">
+          <caret line="63" column="5" lean-forward="false" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+          <folding>
+            <marker date="1539207852067" expanded="false" signature="6:78" ph="..." />
+            <marker date="1539207852067" expanded="true" signature="81:248" ph="/* usage: put this script on all of the dancers that are NOT bros ... */" />
+            <marker date="1539207852067" expanded="true" signature="284:1757" ph="{...}" />
+            <marker date="1539207852067" expanded="true" signature="493:538" ph="{...}" />
+            <marker date="1539207852067" expanded="true" signature="594:1171" ph="{...}" />
+            <marker date="1539207852067" expanded="true" signature="598:681" ph="/* if the dancer is out of the range of the bro rage, ... */" />
+            <marker date="1539207852067" expanded="true" signature="738:893" ph="{...}" />
+            <marker date="1539207852067" expanded="true" signature="900:942" ph="{...}" />
+            <marker date="1539207852067" expanded="true" signature="980:1020" ph="{...}" />
+            <marker date="1539207852067" expanded="true" signature="1123:1165" ph="{...}" />
+            <marker date="1539207852067" expanded="true" signature="1269:1437" ph="{...}" />
+            <marker date="1539207852067" expanded="true" signature="1341:1434" ph="{...}" />
+            <marker date="1539207852067" expanded="true" signature="1526:1602" ph="{...}" />
+            <marker date="1539207852067" expanded="true" signature="1627:1755" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/poke_needle.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="42" lean-forward="false" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+          <folding>
+            <marker date="1538460232474" expanded="false" signature="6:78" ph="..." />
+            <marker date="1538460232474" expanded="true" signature="80:226" ph="/* usage: put this script on the needle that the player carries ... */" />
+            <marker date="1538460232474" expanded="true" signature="268:727" ph="{...}" />
+            <marker date="1538460232474" expanded="true" signature="392:725" ph="{...}" />
+            <marker date="1538460232474" expanded="true" signature="484:722" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/mesh_expand.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="1" column="33" lean-forward="false" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+          <folding>
+            <marker date="1538678920164" expanded="false" signature="6:132" ph="..." />
+            <marker date="1538678920164" expanded="true" signature="135:346" ph="/* usage: put this on the aura object that is attached to every bro ... */" />
+            <marker date="1538678920164" expanded="true" signature="387:4840" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="1272:1828" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="1579:1626" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="1671:1700" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="1844:3677" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="2023:2122" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="2140:2162" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="2209:2298" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="2329:2351" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="2445:3629" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="2872:2921" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="2929:3176" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="2939:3026" ph="/* when the cache is full, set all the cached uv's back to 'red' ... */" />
+            <marker date="1538678920164" expanded="true" signature="3072:3158" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="3184:3262" ph="/* send out lightning bolts ... */" />
+            <marker date="1538678920164" expanded="true" signature="3297:3334" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="3369:3584" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="3744:4308" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="3896:4305" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="4155:4301" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="4375:4835" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="4592:4832" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="4802:4828" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ui_pointer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding>
+            <marker date="1538678937139" expanded="false" signature="6:78" ph="..." />
+            <marker date="1538678937139" expanded="true" signature="80:202" ph="/* usage: put this script on the ui pointer object that should be a child of player ... */" />
+            <marker date="1538678937139" expanded="true" signature="243:532" ph="{...}" />
+            <marker date="1538678937139" expanded="true" signature="353:530" ph="{...}" />
+            <marker date="1538678937139" expanded="true" signature="431:527" ph="/* Vector3 B = bro.transform.position; ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/player_movement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="928">
+          <caret line="34" column="50" lean-forward="false" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
+          <folding>
+            <marker date="1539207492753" expanded="true" signature="6:78" ph="..." />
+            <marker date="1539207492753" expanded="true" signature="81:252" ph="/* usage: this script should be put on the player game object ... */" />
+            <marker date="1539207492753" expanded="true" signature="297:2603" ph="{...}" />
+            <marker date="1539207492753" expanded="true" signature="676:1402" ph="{...}" />
+            <marker date="1539207492753" expanded="true" signature="680:718" ph="/* MOUSE LOOK ... */" />
+            <marker date="1539207492753" expanded="true" signature="1341:1399" ph="{...}" />
+            <marker date="1539207492753" expanded="true" signature="1424:1605" ph="{...}" />
+            <marker date="1539207492753" expanded="true" signature="1628:2601" ph="{...}" />
+            <marker date="1539207492753" expanded="true" signature="2284:2413" ph="{...}" />
+            <marker date="1539207492753" expanded="true" signature="2336:2368" ph="{...}" />
+            <marker date="1539207492753" expanded="true" signature="2376:2409" ph="{...}" />
+            <marker date="1539207492753" expanded="true" signature="2432:2561" ph="{...}" />
+            <marker date="1539207492753" expanded="true" signature="2484:2516" ph="{...}" />
+            <marker date="1539207492753" expanded="true" signature="2524:2557" ph="{...}" />
+            <marker date="1539207492753" expanded="true" signature="2568:2598" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -322,7 +565,7 @@
         <state relative-caret-position="551">
           <caret line="21" column="71" lean-forward="false" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
           <folding>
-            <marker date="1538460232474" expanded="true" signature="6:78" ph="..." />
+            <marker date="1538460232474" expanded="false" signature="6:78" ph="..." />
             <marker date="1538460232474" expanded="true" signature="80:226" ph="/* usage: put this script on the needle that the player carries ... */" />
             <marker date="1538460232474" expanded="true" signature="268:727" ph="{...}" />
             <marker date="1538460232474" expanded="true" signature="392:725" ph="{...}" />
@@ -336,47 +579,31 @@
         <state relative-caret-position="3016">
           <caret line="107" column="93" lean-forward="false" selection-start-line="107" selection-start-column="93" selection-end-line="107" selection-end-column="93" />
           <folding>
-            <marker date="1538461492869" expanded="true" signature="6:142" ph="..." />
-            <marker date="1538461492869" expanded="true" signature="145:356" ph="/* usage: put this on the aura object that is attached to every bro ... */" />
-            <marker date="1538461492869" expanded="true" signature="397:4611" ph="{...}" />
-            <marker date="1538461492869" expanded="true" signature="1131:1687" ph="{...}" />
-            <marker date="1538461492869" expanded="true" signature="1438:1485" ph="{...}" />
-            <marker date="1538461492869" expanded="true" signature="1530:1559" ph="{...}" />
-            <marker date="1538461492869" expanded="true" signature="1703:3508" ph="{...}" />
-            <marker date="1538461492869" expanded="true" signature="1882:1981" ph="{...}" />
-            <marker date="1538461492869" expanded="true" signature="1999:2021" ph="{...}" />
-            <marker date="1538461492869" expanded="true" signature="2068:2157" ph="{...}" />
-            <marker date="1538461492869" expanded="true" signature="2188:2210" ph="{...}" />
-            <marker date="1538461492869" expanded="true" signature="2304:3460" ph="{...}" />
-            <marker date="1538461492869" expanded="true" signature="2703:2752" ph="{...}" />
-            <marker date="1538461492869" expanded="true" signature="2760:3007" ph="{...}" />
-            <marker date="1538461492869" expanded="true" signature="2770:2857" ph="/* when the cache is full, set all the cached uv's back to 'red' ... */" />
-            <marker date="1538461492869" expanded="true" signature="2903:2989" ph="{...}" />
-            <marker date="1538461492869" expanded="true" signature="3015:3093" ph="/* send out lightning bolts ... */" />
-            <marker date="1538461492869" expanded="true" signature="3128:3165" ph="{...}" />
-            <marker date="1538461492869" expanded="true" signature="3200:3415" ph="{...}" />
-            <marker date="1538461492869" expanded="true" signature="3575:4079" ph="{...}" />
-            <marker date="1538461492869" expanded="true" signature="3727:4076" ph="{...}" />
-            <marker date="1538461492869" expanded="true" signature="3926:4072" ph="{...}" />
-            <marker date="1538461492869" expanded="true" signature="4146:4606" ph="{...}" />
-            <marker date="1538461492869" expanded="true" signature="4363:4603" ph="{...}" />
-            <marker date="1538461492869" expanded="true" signature="4573:4599" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/player_movement.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="928">
-          <caret line="34" column="50" lean-forward="false" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
-          <folding>
-            <marker date="1538076528792" expanded="false" signature="6:78" ph="..." />
-            <marker date="1538076528792" expanded="true" signature="81:252" ph="/* usage: this script should be put on the player game object ... */" />
-            <marker date="1538076528792" expanded="true" signature="297:1394" ph="{...}" />
-            <marker date="1538076528792" expanded="true" signature="502:545" ph="{...}" />
-            <marker date="1538076528792" expanded="true" signature="600:1200" ph="{...}" />
-            <marker date="1538076528792" expanded="true" signature="604:642" ph="/* MOUSE LOOK ... */" />
-            <marker date="1538076528792" expanded="true" signature="1222:1392" ph="{...}" />
+            <marker date="1538678920164" expanded="false" signature="6:132" ph="..." />
+            <marker date="1538678920164" expanded="true" signature="135:346" ph="/* usage: put this on the aura object that is attached to every bro ... */" />
+            <marker date="1538678920164" expanded="true" signature="387:4840" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="1272:1828" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="1579:1626" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="1671:1700" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="1844:3677" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="2023:2122" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="2140:2162" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="2209:2298" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="2329:2351" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="2445:3629" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="2872:2921" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="2929:3176" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="2939:3026" ph="/* when the cache is full, set all the cached uv's back to 'red' ... */" />
+            <marker date="1538678920164" expanded="true" signature="3072:3158" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="3184:3262" ph="/* send out lightning bolts ... */" />
+            <marker date="1538678920164" expanded="true" signature="3297:3334" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="3369:3584" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="3744:4308" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="3896:4305" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="4155:4301" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="4375:4835" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="4592:4832" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="4802:4828" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -385,22 +612,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
           <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-          <folding>
-            <marker date="1537904374575" expanded="false" signature="6:78" ph="..." />
-            <marker date="1537904374575" expanded="true" signature="121:564" ph="{...}" />
-            <marker date="1537904374575" expanded="true" signature="203:363" ph="{...}" />
-            <marker date="1537904374575" expanded="true" signature="385:562" ph="{...}" />
-            <marker date="1537904374575" expanded="true" signature="482:559" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/poke_needle.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
+        <state relative-caret-position="116">
           <caret line="6" column="42" lean-forward="false" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
           <folding>
-            <marker date="1538460232474" expanded="true" signature="6:78" ph="..." />
+            <marker date="1538460232474" expanded="false" signature="6:78" ph="..." />
             <marker date="1538460232474" expanded="true" signature="80:226" ph="/* usage: put this script on the needle that the player carries ... */" />
             <marker date="1538460232474" expanded="true" signature="268:727" ph="{...}" />
             <marker date="1538460232474" expanded="true" signature="392:725" ph="{...}" />
@@ -409,71 +629,97 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/mesh_expand.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3886">
+          <caret line="138" column="32" lean-forward="false" selection-start-line="138" selection-start-column="32" selection-end-line="138" selection-end-column="32" />
+          <folding>
+            <marker date="1538678920164" expanded="false" signature="6:132" ph="..." />
+            <marker date="1538678920164" expanded="true" signature="135:346" ph="/* usage: put this on the aura object that is attached to every bro ... */" />
+            <marker date="1538678920164" expanded="true" signature="387:4840" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="1272:1828" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="1579:1626" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="1671:1700" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="1844:3677" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="2023:2122" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="2140:2162" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="2209:2298" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="2329:2351" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="2445:3629" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="2872:2921" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="2929:3176" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="2939:3026" ph="/* when the cache is full, set all the cached uv's back to 'red' ... */" />
+            <marker date="1538678920164" expanded="true" signature="3072:3158" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="3184:3262" ph="/* send out lightning bolts ... */" />
+            <marker date="1538678920164" expanded="true" signature="3297:3334" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="3369:3584" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="3744:4308" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="3896:4305" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="4155:4301" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="4375:4835" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="4592:4832" ph="{...}" />
+            <marker date="1538678920164" expanded="true" signature="4802:4828" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ui_pointer.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        <state relative-caret-position="580">
+          <caret line="22" column="10" lean-forward="false" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
           <folding>
-            <marker date="1538460988952" expanded="true" signature="6:78" ph="..." />
-            <marker date="1538460988952" expanded="true" signature="80:202" ph="/* usage: put this script on the ui pointer object that should be a child of player ... */" />
-            <marker date="1538460988952" expanded="true" signature="243:416" ph="{...}" />
-            <marker date="1538460988952" expanded="true" signature="281:414" ph="{...}" />
+            <marker date="1538678937139" expanded="false" signature="6:78" ph="..." />
+            <marker date="1538678937139" expanded="true" signature="80:202" ph="/* usage: put this script on the ui pointer object that should be a child of player ... */" />
+            <marker date="1538678937139" expanded="true" signature="243:532" ph="{...}" />
+            <marker date="1538678937139" expanded="true" signature="353:530" ph="{...}" />
+            <marker date="1538678937139" expanded="true" signature="431:527" ph="/* Vector3 B = bro.transform.position; ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/player_movement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1189">
+          <caret line="41" column="53" lean-forward="false" selection-start-line="41" selection-start-column="53" selection-end-line="41" selection-end-column="53" />
+          <folding>
+            <marker date="1539207492753" expanded="true" signature="6:78" ph="..." />
+            <marker date="1539207492753" expanded="true" signature="81:252" ph="/* usage: this script should be put on the player game object ... */" />
+            <marker date="1539207492753" expanded="true" signature="297:2603" ph="{...}" />
+            <marker date="1539207492753" expanded="true" signature="676:1402" ph="{...}" />
+            <marker date="1539207492753" expanded="true" signature="680:718" ph="/* MOUSE LOOK ... */" />
+            <marker date="1539207492753" expanded="true" signature="1341:1399" ph="{...}" />
+            <marker date="1539207492753" expanded="true" signature="1424:1605" ph="{...}" />
+            <marker date="1539207492753" expanded="true" signature="1628:2601" ph="{...}" />
+            <marker date="1539207492753" expanded="true" signature="2284:2413" ph="{...}" />
+            <marker date="1539207492753" expanded="true" signature="2336:2368" ph="{...}" />
+            <marker date="1539207492753" expanded="true" signature="2376:2409" ph="{...}" />
+            <marker date="1539207492753" expanded="true" signature="2432:2561" ph="{...}" />
+            <marker date="1539207492753" expanded="true" signature="2484:2516" ph="{...}" />
+            <marker date="1539207492753" expanded="true" signature="2524:2557" ph="{...}" />
+            <marker date="1539207492753" expanded="true" signature="2568:2598" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/dancer.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1160">
-          <caret line="63" column="5" lean-forward="false" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+        <state relative-caret-position="2117">
+          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
           <folding>
-            <marker date="1538461378866" expanded="false" signature="6:78" ph="..." />
-            <marker date="1538461378866" expanded="true" signature="81:248" ph="/* usage: put this script on all of the dancers that are NOT bros ... */" />
-            <marker date="1538461378866" expanded="true" signature="284:1635" ph="{...}" />
-            <marker date="1538461378866" expanded="true" signature="507:1049" ph="{...}" />
-            <marker date="1538461378866" expanded="true" signature="511:594" ph="/* if the dancer is out of the range of the bro rage, ... */" />
-            <marker date="1538461378866" expanded="true" signature="642:788" ph="{...}" />
-            <marker date="1538461378866" expanded="true" signature="795:837" ph="{...}" />
-            <marker date="1538461378866" expanded="true" signature="875:915" ph="{...}" />
-            <marker date="1538461378866" expanded="true" signature="1001:1043" ph="{...}" />
-            <marker date="1538461378866" expanded="true" signature="1147:1315" ph="{...}" />
-            <marker date="1538461378866" expanded="true" signature="1219:1312" ph="{...}" />
-            <marker date="1538461378866" expanded="true" signature="1404:1480" ph="{...}" />
-            <marker date="1538461378866" expanded="true" signature="1505:1633" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/mesh_expand.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="171" column="31" lean-forward="false" selection-start-line="171" selection-start-column="31" selection-end-line="171" selection-end-column="31" />
-          <folding>
-            <marker date="1538461492869" expanded="true" signature="6:142" ph="..." />
-            <marker date="1538461492869" expanded="true" signature="145:356" ph="/* usage: put this on the aura object that is attached to every bro ... */" />
-            <marker date="1538461492869" expanded="true" signature="397:4611" ph="{...}" />
-            <marker date="1538461492869" expanded="true" signature="1131:1687" ph="{...}" />
-            <marker date="1538461492869" expanded="true" signature="1438:1485" ph="{...}" />
-            <marker date="1538461492869" expanded="true" signature="1530:1559" ph="{...}" />
-            <marker date="1538461492869" expanded="true" signature="1703:3508" ph="{...}" />
-            <marker date="1538461492869" expanded="true" signature="1882:1981" ph="{...}" />
-            <marker date="1538461492869" expanded="true" signature="1999:2021" ph="{...}" />
-            <marker date="1538461492869" expanded="true" signature="2068:2157" ph="{...}" />
-            <marker date="1538461492869" expanded="true" signature="2188:2210" ph="{...}" />
-            <marker date="1538461492869" expanded="true" signature="2304:3460" ph="{...}" />
-            <marker date="1538461492869" expanded="true" signature="2703:2752" ph="{...}" />
-            <marker date="1538461492869" expanded="true" signature="2760:3007" ph="{...}" />
-            <marker date="1538461492869" expanded="true" signature="2770:2857" ph="/* when the cache is full, set all the cached uv's back to 'red' ... */" />
-            <marker date="1538461492869" expanded="true" signature="2903:2989" ph="{...}" />
-            <marker date="1538461492869" expanded="true" signature="3015:3093" ph="/* send out lightning bolts ... */" />
-            <marker date="1538461492869" expanded="true" signature="3128:3165" ph="{...}" />
-            <marker date="1538461492869" expanded="true" signature="3200:3415" ph="{...}" />
-            <marker date="1538461492869" expanded="true" signature="3575:4079" ph="{...}" />
-            <marker date="1538461492869" expanded="true" signature="3727:4076" ph="{...}" />
-            <marker date="1538461492869" expanded="true" signature="3926:4072" ph="{...}" />
-            <marker date="1538461492869" expanded="true" signature="4146:4606" ph="{...}" />
-            <marker date="1538461492869" expanded="true" signature="4363:4603" ph="{...}" />
-            <marker date="1538461492869" expanded="true" signature="4573:4599" ph="{...}" />
+            <marker date="1539207852067" expanded="false" signature="6:78" ph="..." />
+            <marker date="1539207852067" expanded="true" signature="81:248" ph="/* usage: put this script on all of the dancers that are NOT bros ... */" />
+            <marker date="1539207852067" expanded="true" signature="284:1757" ph="{...}" />
+            <marker date="1539207852067" expanded="true" signature="493:538" ph="{...}" />
+            <marker date="1539207852067" expanded="true" signature="594:1171" ph="{...}" />
+            <marker date="1539207852067" expanded="true" signature="598:681" ph="/* if the dancer is out of the range of the bro rage, ... */" />
+            <marker date="1539207852067" expanded="true" signature="738:893" ph="{...}" />
+            <marker date="1539207852067" expanded="true" signature="900:942" ph="{...}" />
+            <marker date="1539207852067" expanded="true" signature="980:1020" ph="{...}" />
+            <marker date="1539207852067" expanded="true" signature="1123:1165" ph="{...}" />
+            <marker date="1539207852067" expanded="true" signature="1269:1437" ph="{...}" />
+            <marker date="1539207852067" expanded="true" signature="1341:1434" ph="{...}" />
+            <marker date="1539207852067" expanded="true" signature="1526:1602" ph="{...}" />
+            <marker date="1539207852067" expanded="true" signature="1627:1755" ph="{...}" />
           </folding>
         </state>
       </provider>

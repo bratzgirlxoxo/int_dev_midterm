@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.Rendering;
 using UnityEngine;
+using UnityEditor;
 using UnityEngine.SocialPlatforms;
 
 
@@ -11,10 +11,11 @@ using UnityEngine.SocialPlatforms;
 public class mesh_expand : MonoBehaviour
 {
 
-	public bool inflating;
-	public bool deflating;
+	public bool inflating; // whether or not the bro is inflating
+	public bool deflating; // whether or not the bro is inflating
+	public int floor; // if the bro is on floor 0 or 1
 
-	public GameObject pointer;
+	public GameObject pointer; // ui pointer object
 
 	private float startScale;
 	private float perlinX = 0.0f;
@@ -92,7 +93,8 @@ public class mesh_expand : MonoBehaviour
 		// only do this when the bro is fully inflated
 		if (transform.localScale.x == endScale)
 		{
-			pointer.GetComponent<ui_pointer>().LookAt(transform.gameObject);
+			// have the ui pointer point at the bro rage
+			pointer.GetComponent<ui_pointer>().LookAt();
 			
 			
 			perlinX += Time.deltaTime;
@@ -155,7 +157,9 @@ public class mesh_expand : MonoBehaviour
 			transform.parent.gameObject.GetComponent<ParticleSystem>().Play();
 			inflating = false;
 
+			// activate the ui pointer
 			pointer.SetActive(true);
+			//pointer.GetComponent<>()
 
 			lightning.enabled = true;
 			for (int i = 0; i < lightning_size; i++)

@@ -6,12 +6,20 @@ using UnityEngine;
 //intent: point toward the raging bros!
 public class ui_pointer : MonoBehaviour {
 
-	public void LookAt(GameObject bro)
+	[HideInInspector] public List<GameObject> raging_bros = new List<GameObject>(); 
+	
+	
+	public void LookAt()
 	{
-		Vector3 A = transform.position;
-		Vector3 B = bro.transform.position;
-		Vector3 AtoB = B - A;
+		GameObject closest_bro;
 		
-		transform.forward = AtoB;
+		
+		
+		
+		Vector3 A = transform.position;
+		//Vector3 B = bro.transform.position;
+		//Vector3 AtoB = B - A;
+		
+		//transform.forward = AtoB;
 	}
 }
