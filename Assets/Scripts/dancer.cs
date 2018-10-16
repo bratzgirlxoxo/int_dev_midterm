@@ -31,9 +31,7 @@ public class dancer : MonoBehaviour
 		// grow back to normal size
 		if (!shrinking && transform.localScale.x < true_scale)
 		{
-			t += Time.deltaTime;
-			float q = Mathf.Lerp(start_scale, true_scale, t);
-			transform.localScale = new Vector3(q, q, q);
+			transform.localScale += new Vector3(0.002f, 0.002f, 0.002f);
 			shrinking = false;
 		}
 		else
@@ -41,7 +39,7 @@ public class dancer : MonoBehaviour
 			dance_timer += Time.deltaTime;
 		}
 
-		if (dance_timer >= dance_interval)
+		if (!shrinking && dance_timer >= dance_interval)
 		{
 			dance_timer = 0;
 			Dance();
