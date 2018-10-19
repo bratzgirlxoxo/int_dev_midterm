@@ -17,7 +17,7 @@ public class mesh_expand : MonoBehaviour
 
 	private float startScale;
 	[HideInInspector] public float endScale;
-	private float load_scale;
+	[HideInInspector] public float load_scale;
 	private float perlinX = 0.0f;
 	private float perlinY = 0.0f;
 	private int lightning_counter = 0;
@@ -57,51 +57,64 @@ public class mesh_expand : MonoBehaviour
 	void Update()
 	{
 		transform.localPosition = relative_pos;
-		
-		// randomly go into bro rage
-		if (rage_counter >= rage_frequency)
-		{
-			rage_frequency = Random.Range(rage_range_min, rage_range_max);
-			rage_counter = 0;
-			inflating = true;
-		}
 
-		if (inflating)
+		if (Manager.instance.intro_done)
 		{
-			Inflate();
-		}
-		else if (transform.localScale.x < endScale)
-		{
-			rage_counter += Time.deltaTime; // when not inflating... get ready to inflate
-		}
-
-		// deflate
-		if (deflating && transform.localScale.x != load_scale)
-		{
-			Deflate();
-		}
-		
-		// only do this when the bro is fully inflated
-		if (transform.localScale.x == endScale)
-		{
-			
-			// send out lightning bolts
-			// every ten frames create a new lightning bolt
-			
-			if (lightning_counter == 5)
+			// randomly go into bro rage
+			if (rage_counter >= rage_frequency)
 			{
-				lightning_counter = 0;
+				rage_frequency = Random.Range(rage_range_min, rage_range_max);
+				rage_counter = 0;
+				inflating = true;
 			}
-			
-			if (lightning_counter == 0)
+
+			if (inflating)
 			{
-				lightning.SetPosition(1, lightning_objs[Random.Range(0, lightning_size-1)].transform.position);
-				lightning.SetPosition(2, lightning_objs[Random.Range(0, lightning_size-1)].transform.position);
+				Inflate();
+			}
+			else if (transform.localScale.x < endScale)
+			{
+				rage_counter += Time.deltaTime; // when not inflating... get ready to inflate
+			}
+
+			// deflate
+			if (deflating && transform.localScale.x != load_scale)
+			{
+				Deflate();
+			}
+
+			if (transform.localScale.x <= load_scale)
+			{
+				GetComponent<MeshRenderer>().enabled = false;
+			}
+			else
+			{
+				GetComponent<MeshRenderer>().enabled = true;
+			}
+		
+			// only do this when the bro is fully inflated
+			if (transform.localScale.x == endScale)
+			{
+			
+				// send out lightning bolts
+				// every ten frames create a new lightning bolt
+			
+				if (lightning_counter == 5)
+				{
+					lightning_counter = 0;
+				}
+			
+				if (lightning_counter == 0)
+				{
+					lightning.SetPosition(1, lightning_objs[Random.Range(0, lightning_size-1)].transform.position);
+					lightning.SetPosition(2, lightning_objs[Random.Range(0, lightning_size-1)].transform.position);
 				
-			}
+				}
 			
-			lightning_counter++;
+				lightning_counter++;
+			}
 		}
+		
 	}
 
 	// controls the inflation of the bro rage bubble
@@ -132,7 +145,7 @@ public class mesh_expand : MonoBehaviour
 
 		
 		transform.localScale = new Vector3(lerp, transform.localScale.y, lerp); // lerp back to original size
-		t += Time.deltaTime * 0.5f;
+		t += Time.deltaTime * 6f;
 		
 		if (transform.localScale.x <= startScale)
 		{

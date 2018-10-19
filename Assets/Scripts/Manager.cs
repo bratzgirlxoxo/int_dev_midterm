@@ -9,9 +9,13 @@ using UnityEngine.UI;
 public class Manager : MonoBehaviour
 {
 
+	[HideInInspector] public bool intro_done;
+	
+	
 	public GameObject start_barrier_1;
 	public GameObject start_barrier_2;
 	public GameObject[] dancers;
+	public RawImage[] dancers_ui;
 	public mesh_expand[] bros;
 
 	public static Manager instance;
@@ -20,6 +24,7 @@ public class Manager : MonoBehaviour
 
 	private float counter = 0;
 	private float counter2 = 0;
+	private float ui_counter = 0;
 
 	public float strobe_speed;
 
@@ -46,35 +51,57 @@ public class Manager : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
-		BrosUI();	
-		
-		counter += Time.deltaTime;
-		counter2 += Time.deltaTime;
-		if (counter >= 3f)
+		if (intro_done)
 		{
-			counter = 0; // reset counter
-			
-			// check how many dancers still in club
-			if (!end)
-				end = CheckDancers();
-			
-			// if not enough... show end sequence
-			if (end)
+			BrosUI();
+			DancersUI();
+
+			counter += Time.deltaTime;
+			counter2 += Time.deltaTime;
+			if (counter >= 3f)
 			{
-				for (int i = 0; i < dancers.Length; i++)
+				counter = 0; // reset counter
+
+				// check how many dancers still in club
+				if (!end)
+					end = CheckDancers();
+
+				// if not enough... show end sequence
+				if (end)
 				{
-					if (dancers[i] != null)
+					for (int i = 0; i < dancers.Length; i++)
 					{
-						Destroy(dancers[i]); // get rid of the rest of the dancers
+						if (dancers[i] != null)
+						{
+							Destroy(dancers[i]); // get rid of the rest of the dancers
+						}
+						Destroy(walls); // destroy walls
+
+
 					}
-					Destroy(walls); // destroy walls
-					
+					Camera.main.enabled = false; // disable cam
+					end_cam.enabled = true; // enable end cam
+					Destroy(player); // destroy player
+					end_cam.transform.localEulerAngles = new Vector3(23.5f, 0f, 0f); // angle new cam
+					ui_text.text = "The night is dead. You kept the party alive for " + survival_time + " seconds."; // new text
 				}
-				Camera.main.enabled = false; // disable cam
-				end_cam.enabled = true; // enable end cam
-				Destroy(player); // destroy player
-				end_cam.transform.localEulerAngles = new Vector3(23.5f, 0f, 0f); // angle new cam
-				ui_text.text = "The night is dead. You kept the party alive for " + survival_time + " seconds."; // new text
+			}
+		}
+		else
+		{
+			foreach (GameObject d in dancers)
+			{
+				d.GetComponent<MeshRenderer>().enabled = false;
+			}
+
+			foreach (Text t in bro_ui)
+			{
+				t.enabled = false;
+			}
+
+			foreach (RawImage ri in dancers_ui)
+			{
+				ri.enabled = false;
 			}
 		}
 	}
@@ -103,11 +130,24 @@ public class Manager : MonoBehaviour
 
 	void BrosUI()
 	{
+		
 		for (int i = 0; i < bros.Length; i++)
 		{
 			if (bros[i].inflating || bros[i].transform.localScale.x == bros[i].endScale)
 			{
-				bro_ui[i].color = Color.yellow;
+				ui_counter += Time.deltaTime;
+				if (ui_counter >= 0.5f)
+				{
+					ui_counter = 0;
+					if (bro_ui[i].color == Color.white)
+					{
+						bro_ui[i].color = Color.red;
+					}
+					else
+					{
+						bro_ui[i].color = Color.white;
+					}
+				}
 			}
 			else
 			{
@@ -115,4 +155,16 @@ public class Manager : MonoBehaviour
 			}
 		}
 	}
+
+	void DancersUI()
+	{
+		for (int i = 0; i < dancers.Length; i++)
+		{
+			if (dancers[i] == null && dancers_ui[i] != null)
+			{
+				Destroy(dancers_ui[i].gameObject);
+			}
+		}
+	}
+
 }

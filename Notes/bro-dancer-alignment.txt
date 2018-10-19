@@ -1,0 +1,6 @@
+BRO		LOCATION		DANCERS
+
+1		up back			1, 3, 5, 10, 11
+2		down back		2, 7, 12, 13, 19
+3		down front		4, 14, 15, 16, 18
+4		up front		6, 8, 9, 17, 20

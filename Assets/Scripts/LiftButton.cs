@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.UI;
 
 // usage: put this script on the button that will control the lift
 // intent: allows the lift to move up and down when the button is pressed
@@ -22,6 +23,8 @@ public class LiftButton : MonoBehaviour
 	private float start_y;
 	public float end_y;
 	public float speed;
+
+	public Text ui_text;
 
 	void Start()
 	{
@@ -97,6 +100,7 @@ public class LiftButton : MonoBehaviour
 		if (other.CompareTag("Player"))
 		{
 			in_range = true;
+			ui_text.text = "Press SPACE to operate lift";
 		}
 	}
 
@@ -107,6 +111,7 @@ public class LiftButton : MonoBehaviour
 		if (other.CompareTag("Player"))
 		{
 			in_range = false;
+			ui_text.text = "";
 		}
 	}
 }

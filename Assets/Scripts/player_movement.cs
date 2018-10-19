@@ -22,19 +22,22 @@ public class player_movement : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
-		time_since_stairs += Time.deltaTime;
-		
-		LookForStairs();
-		
-		// get horizontal and vertical input
-		float side = Input.GetAxis("Horizontal");
-		float fwd = Input.GetAxis("Vertical");
-		
-		input_vector = transform.forward * fwd + transform.right * side;
-
-		if ((input_vector != Vector3.zero && time_since_stairs < 0.5f) || (on_stairs && input_vector != Vector3.zero))
+		if (Manager.instance.intro_done)
 		{
-			input_vector += new Vector3(0f, up_speed, 0f);
+			time_since_stairs += Time.deltaTime;
+		
+			LookForStairs();
+		
+			// get horizontal and vertical input
+			float side = Input.GetAxis("Horizontal");
+			float fwd = Input.GetAxis("Vertical");
+		
+			input_vector = transform.forward * fwd + transform.right * side;
+
+			if ((input_vector != Vector3.zero && time_since_stairs < 0.5f) || (on_stairs && input_vector != Vector3.zero))
+			{
+				input_vector += new Vector3(0f, up_speed, 0f);
+			}
 		}
 	}
 	
@@ -46,10 +49,12 @@ public class player_movement : MonoBehaviour
 			GetComponent<Rigidbody>().velocity = Vector3.zero;
 		} else if (on_stairs || input_vector != Vector3.zero && time_since_stairs < 0.5f)
 		{
+			// add a clamping
 			GetComponent<Rigidbody>().velocity = input_vector.normalized * move_scale * 2 + Physics.gravity * grav_scale;
 		}
 		else
 		{
+			// add a clamping
 			GetComponent<Rigidbody>().velocity = input_vector.normalized * move_scale + Physics.gravity * grav_scale;
 		}
 	}

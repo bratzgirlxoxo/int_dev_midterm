@@ -9,6 +9,7 @@ public class poke_needle : MonoBehaviour
 {
 
 	public Text ui_text;
+	public ParticleSystem part;
 
 	private bool in_range;
 	private bool has_needle;
@@ -37,15 +38,17 @@ public class poke_needle : MonoBehaviour
 		GameObject other = coll.gameObject;
 		if (other.CompareTag("bro")) // when you stab a bro rage bubble
 		{
+			part.Play();
 			other.GetComponent<mesh_expand>().inflating = false; // only for mid inflating
 			other.GetComponent<mesh_expand>().deflating = true; // start to deflate
 			other.GetComponent<mesh_expand>().t = 0; // set lerp interpolator back to 0
 			other.transform.parent.GetComponent<ParticleSystem>().Stop(); // stop the particle emission of bro
+			
 		} else if (other.CompareTag("Player")) // this part of the if only applies for picking up the needle
 		{
 			player = other;
 			in_range = true;
-			ui_text.text = "Press Space to Pick Up Needle... \nPoke the bros going crazy.";
+			ui_text.text = "Press Space to Pick Up Needle... \nPoke the bros going crazy on both floors. Save the Dancers!";
 		}
 	}
 
